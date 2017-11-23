@@ -1,0 +1,47 @@
+body {
+    background-color: #343a40;
+    padding-top: 70px;
+}
+
+.card {
+    border: 4px solid rgba(255, 242, 242, .3);
+    border-radius: 1rem;
+    padding-top: 1em;
+}
+.custom-file-control::before {
+    content: "Parcourir";
+}
+#textarea {
+    width: 100%;
+    height: 350px;
+}
+#homecard {
+    column-count: 1;
+}
+.text-title, h1 {
+    color: white;
+}
+.text-title, h3 {
+    text-align: center;
+    color: dimgrey;
+    background-color:rgba(0, 0, 0, 0.08);
+    border:1px dotted #CCCCCC;
+    padding: 0.3em;
+    margin-bottom: 0;
+}
+.card-body {
+    border-left: 1px dotted #CCCCCC;
+    border-right: 1px dotted #CCCCCC;
+}
+.card-text {
+    text-align: justify;
+}
+.card-footer {
+    padding: 0.25rem 0.25rem;
+}
+.card {
+
+}
+.card-columns .card {
+    margin-bottom: 0;
+}
